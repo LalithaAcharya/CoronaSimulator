@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
+*{
+    font-family: "Poppins";
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    font-family: 'Noto Serif', serif;
+}
+
+body{
+    overflow: hidden;
+}
+#nav1{
+    width:400px;
+    height:600px;
+    border-radius:20px;
+    position:relative;
+    left:72%;
+    top:40px;
+    padding:40px;
+    padding-left:60px;
+     /*background: rgb(196,76,208);*/
+    /*background-image: url('./assets/image9.jpg');*/
+    /*background-color: orangered;*/
+    background-image: linear-gradient(to left bottom, #ee0b49, #fa4f33, #fc7a1b, #f7a100, #ebc512);
+    box-shadow: 45px 28px 26px -2px rgba(130,11,11,0.74);
+    -webkit-box-shadow: 45px 28px 26px -2px rgba(130,11,11,0.74);
+    -moz-box-shadow: 45px 28px 26px -2px rgba(130,11,11,0.74);
+    opacity:0.7;
+    animation: slide7 0.8s ease-in-out forwards;
+}
+@keyframes slide7 {
+    from {
+      top: -100vw;
+    }
+    to {
+      top: 40px;
+    }
+  }
+
+.image4{
+    margin-top:40px;
+    margin-left:-30px;
+}
+#heading4{
+    margin-top:-20px;
+    font-weight: bolder;
+    font-size: 1.5em;
+    line-height:70px;
+    text-shadow: 2px 2px 0px red;
+}
+.heading3{
+    font-weight:bolder;
+    margin-top:-150px;
+    line-height:100px;
+}
+#count{
+    line-height: 40px;
+}
+.grid {
+    position:absolute;
+    top:40px;
+    left:30px;
+	width: 1000px;
+	height: 600px;
+    border-radius: 20px;
+	display: flex;
+	flex-wrap: wrap;
+    background-image: url("./assets/fourth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* background: linear-gradient(90deg, #e91427, #ec2a2c, #f03931, #f34636, #f6513c, #f95b42, #fc6548, #ff6e4e);
+    /*background-image: url("https://alltogether.swe.org/wp-content/uploads/2020/09/FeatureImage-Covid-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    box-shadow: -2px -2px 29px 21px rgba(165,42,42,0.75);
+-webkit-box-shadow: -2px -2px 29px 21px rgba(165,42,42,0.75);
+-moz-box-shadow: -2px -2px 29px 21px rgba(165,42,42,0.75);
+    animation: slide8 0.3s ease-in-out forwards;
+}
+@keyframes slide8 {
+    from {
+      top: -100vw;
+    }
+    to {
+      top: 40px;
+    }
+  }
+
+.grid div {
+	width: 60px;
+	height: 60px;
+}
+
+.corona {
+	 background-image: url('./assets/carona.png');
+    background-size:60px;
+}
+
+.shooter {
+	background-image: url('./assets/shooter.png');
+	background-repeat: no-repeat;
+	background-size:60px;
+}
+
+.dolo {
+	background-image: url('./assets/dolo.png');
+	background-repeat: no-repeat;
+	background-size:40px;
+}
+
+.boom {
+	background-image: url('./assets/bang.png');
+	background-repeat: no-repeat;
+	background-size:60px;
+}
+.laser2 {
+	background-image: url('./assets/dolo.png');
+	background-repeat: no-repeat;
+	background-size:40px;
+}
+.pic12{
+    width:150px;
+    height:150px;
+    position: relative;
+    top:-340px;
+    left:200px;
+}
+.timeOver{
+    
+    position:absolute;
+    top:40px;
+    left:30px;
+	width: 1000px;
+	height: 600px;
+    border-radius: 20px;
+    background-image:url("./assets/pic14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 2px 32px 23px rgba(242,16,16,0.75);
+-webkit-box-shadow: 1px 2px 32px 23px rgba(242,16,16,0.75);
+-moz-box-shadow: 1px 2px 32px 23px rgba(242,16,16,0.75);
+    animation: slide9 1.5s ease-in-out forwards;
+}
+@keyframes slide9 {
+    from {
+      left: -100vw;
+      transform: rotate(90deg);
+    }
+    to {
+      left: 30px;
+    }
+  }
+.photo{
+   width:300px;
+   height:300px;
+   position:relative;
+   top:-200px;
+}
+.timeup{
+    font-weight:boler;
+    font-size:3.2em;
+    letter-spacing:8px;
+    margin-left:350px;
+    margin-top:130px;
+    width:400px;
+    color:white;
+    text-shadow: 5px 5px 2px red;
+}
+.photo1{
+    width:350px;
+    height:350px;
+    position:relative;
+    left:100px;
+    top:100px;
+    
+}
+
+.home{
+    color:white;
+    width:200px;
+    height:60px;
+    position:absolute;
+    top:500px;
+    left:150px;
+    background-color:orangered;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 green;
+    transition:ease-out 1s;
+}
+.home:hover{
+    box-shadow: inset 200px 0 0 0 green;
+}
+.playagain{
+        color:white;
+        width:200px;
+        height:60px;
+        position:relative;
+        top:-100px;
+        left:-500px;
+        background-color:orangered;
+        border-radius: 20px;
+        box-shadow: inset 0 0 0 0 green;
+        transition:ease-out 1s;
+    }
+.playagain:hover{
+    box-shadow: inset 200px 0 0 0 green;
+}
+.playagain1{
+    color:white;
+    width:200px;
+    height:60px;
+    position:absolute;
+    top:330px;
+    left:380px;
+    background-color:orangered;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 green;
+    transition:ease-out 1s;
+}
+.playagain1:hover{
+box-shadow: inset 200px 0 0 0 green;
+}
+
+
+/*win*/
+
+.timeOver1{
+    
+    position:absolute;
+    top:40px;
+    left:30px;
+	width: 1000px;
+	height: 600px;
+    border-radius: 20px;
+    background-image:url("./assets/pic19.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slide10 0.3s ease-in-out forwards;
+}
+@keyframes slide10 {
+    from {
+      left: -100vw;
+      transform: rotate(90deg);
+    }
+    to {
+      left: 30px;
+      transform: rotate(0deg);
+    }
+  }
+.photo2{
+   width:350px;
+   height:300px;
+   position:absolute;
+   top:300px;
+}
+.timeup1{
+    font-weight:bolder;
+    font-size:3.2em;
+    letter-spacing:8px;
+    margin-left:350px;
+    margin-top:150px;
+    width:400px;
+    color:white;
+    text-shadow: 5px 5px 2px red;
+}
+.photo3{
+    width:300px;
+    height:400px;
+    position:relative;
+    left:700px;
+    top:-10px;
+    
+}
+
+.photo4{
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50px;
+    top:20px;
+    
+}
+
+.home1{
+    color:white;
+    width:200px;
+    height:60px;
+    position:absolute;;
+    top:450px;
+    left:380px;
+    background-color:orangered;
+    border-radius: 20px;
+    transition:ease-out 1s;
+}
+.home1:hover{
+    box-shadow: inset 200px 0 0 0 green;
+}
+
+.photo5{
+ width:400px;
+ height:200px;
+ position:absolute;
+ top:50px;
+ left:30%;
+}
+
+.photo6{
+    width:400px;
+    height:200px;
+    position:absolute;
+    top:50px;
+    left:30%;
+}
+
+.photo7{
+    width:500px;
+    height:200px;
+    position:absolute;
+    top:50px;
+    left:30%;
+}
